@@ -1,6 +1,6 @@
 body {
     font-family: 'Gabarito', sans-serif;
-    background-color: #f0f0f0; /* Light gray background color */
+    background-color: #f0f0f0; 
     background-image: url('image.jpg'); 
 
     background-size: cover;
@@ -19,7 +19,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 1000px; /* Increased margin at the top */
+    margin-top: 1000px; 
 }
 
 p {
