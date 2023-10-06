@@ -1,8 +1,10 @@
 body {
     font-family: 'Gabarito', sans-serif;
+    background-color: #f0f0f0; /* Light gray background color */
     background-image: url('image.jpg'); 
+
     background-size: cover;
-    background-position: center;
+    background-position: center 1%;
     background-repeat: no-repeat;
     margin: 0;
     display: flex;
@@ -17,6 +19,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1000px; /* Increased margin at the top */
 }
 
 p {
@@ -26,7 +29,15 @@ p {
     margin-bottom: 1em;
 }
 
-h1, h2, h3 {
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 1em;
+}
+
+h2, h3 {
     font-family: 'DM Serif Display', serif;
     font-weight: 700;
     color: #444;
@@ -41,3 +52,4 @@ h1, h2, h3 {
     font-weight: 700;
     color: #70184d; 
 }
+
