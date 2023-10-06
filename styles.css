@@ -1,0 +1,43 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+    background-image: url('image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lyrics {
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #222; 
+    margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 700;
+    color: #444;
+}
+
+.emotion1 {
+    font-style: italic;
+    color: #ee4722; 
+}
+
+.emotion2 {
+    font-weight: 700;
+    color: #70184d; 
+}
